@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "12ec390ceb60358f9789d1b00bf61b22"
+build_time: [1521297556, 424376000]
+inputs:
+  "/Users/angelo/Documents/Projects/Skip/SkipMobile/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [1521297554, 0]

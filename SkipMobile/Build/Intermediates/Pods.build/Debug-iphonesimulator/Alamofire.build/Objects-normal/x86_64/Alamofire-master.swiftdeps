@@ -1,0 +1,21 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "9d0421076f5ef66e76b7d3a0b57ebf19"
+build_time: [1521297426, 116118000]
+inputs:
+  "/Users/angelo/Documents/Projects/Skip/SkipMobile/Pods/Alamofire/Source/AFError.swift": [1521297319, 0]
+  "/Users/angelo/Documents/Projects/Skip/SkipMobile/Pods/Alamofire/Source/Alamofire.swift": [1521297319, 0]
+  "/Users/angelo/Documents/Projects/Skip/SkipMobile/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1521297318, 0]
+  "/Users/angelo/Documents/Projects/Skip/SkipMobile/Pods/Alamofire/Source/MultipartFormData.swift": [1521297318, 0]
+  "/Users/angelo/Documents/Projects/Skip/SkipMobile/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1521297318, 0]
+  "/Users/angelo/Documents/Projects/Skip/SkipMobile/Pods/Alamofire/Source/Notifications.swift": [1521297319, 0]
+  "/Users/angelo/Documents/Projects/Skip/SkipMobile/Pods/Alamofire/Source/ParameterEncoding.swift": [1521297319, 0]
+  "/Users/angelo/Documents/Projects/Skip/SkipMobile/Pods/Alamofire/Source/Request.swift": [1521297319, 0]
+  "/Users/angelo/Documents/Projects/Skip/SkipMobile/Pods/Alamofire/Source/Response.swift": [1521297319, 0]
+  "/Users/angelo/Documents/Projects/Skip/SkipMobile/Pods/Alamofire/Source/ResponseSerialization.swift": [1521297319, 0]
+  "/Users/angelo/Documents/Projects/Skip/SkipMobile/Pods/Alamofire/Source/Result.swift": [1521297319, 0]
+  "/Users/angelo/Documents/Projects/Skip/SkipMobile/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1521297319, 0]
+  "/Users/angelo/Documents/Projects/Skip/SkipMobile/Pods/Alamofire/Source/SessionDelegate.swift": [1521297319, 0]
+  "/Users/angelo/Documents/Projects/Skip/SkipMobile/Pods/Alamofire/Source/SessionManager.swift": [1521297319, 0]
+  "/Users/angelo/Documents/Projects/Skip/SkipMobile/Pods/Alamofire/Source/TaskDelegate.swift": [1521297318, 0]
+  "/Users/angelo/Documents/Projects/Skip/SkipMobile/Pods/Alamofire/Source/Timeline.swift": [1521297318, 0]
+  "/Users/angelo/Documents/Projects/Skip/SkipMobile/Pods/Alamofire/Source/Validation.swift": [1521297319, 0]

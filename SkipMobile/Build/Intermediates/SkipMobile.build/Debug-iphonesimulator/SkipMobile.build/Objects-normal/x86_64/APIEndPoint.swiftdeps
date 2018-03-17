@@ -1,0 +1,266 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "APIEndPoint"
+provides-nominal:
+- "10SkipMobile11APIEndPointO"
+provides-member:
+- ["10SkipMobile11APIEndPointO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "APIEndPoint"
+- "Alamofire"
+- !private "CastingPrecedence"
+- "Int"
+- !private "NSBundle"
+- "NSURL"
+- "String"
+- !private "StringLiteralType"
+- !private "description"
+- !private "fatalError"
+depends-member:
+- ["10SkipMobile11APIEndPointO", "Alamofire"]
+- ["10SkipMobile11APIEndPointO", "AuthenticateCustomer"]
+- ["10SkipMobile11APIEndPointO", "CreateCustomer"]
+- ["10SkipMobile11APIEndPointO", "GetCousineByDescription"]
+- ["10SkipMobile11APIEndPointO", "GetCousineList"]
+- ["10SkipMobile11APIEndPointO", "GetCousineStores"]
+- ["10SkipMobile11APIEndPointO", "GetOrderByCustomer"]
+- ["10SkipMobile11APIEndPointO", "GetOrderInfo"]
+- ["10SkipMobile11APIEndPointO", "GetProductByDescription"]
+- ["10SkipMobile11APIEndPointO", "GetProductList"]
+- ["10SkipMobile11APIEndPointO", "GetProductinfo"]
+- ["10SkipMobile11APIEndPointO", "GetStoreByDescription"]
+- ["10SkipMobile11APIEndPointO", "GetStoreInfo"]
+- ["10SkipMobile11APIEndPointO", "GetStoreList"]
+- ["10SkipMobile11APIEndPointO", "GetStoreProducts"]
+- ["10SkipMobile11APIEndPointO", "Int"]
+- ["10SkipMobile11APIEndPointO", "NSURL"]
+- ["10SkipMobile11APIEndPointO", "PlaceOrder"]
+- ["10SkipMobile11APIEndPointO", "String"]
+- !private ["10SkipMobile11APIEndPointO", "description"]
+- ["10SkipMobile11APIEndPointO", "method"]
+- ["10SkipMobile11APIEndPointO", "url"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["So6BundleC", "mainBundle"]
+- !private ["s7CVarArgP", "GET"]
+- !private ["s7CVarArgP", "NSBundle"]
+- !private ["s7CVarArgP", "NSURL"]
+- !private ["s7CVarArgP", "POST"]
+- !private ["s7CVarArgP", "URLByAppendingPathComponent"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "getBaseUrl"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "mainBundle"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "GET"]
+- !private ["s28CustomDebugStringConvertibleP", "NSBundle"]
+- !private ["s28CustomDebugStringConvertibleP", "NSURL"]
+- !private ["s28CustomDebugStringConvertibleP", "POST"]
+- !private ["s28CustomDebugStringConvertibleP", "URLByAppendingPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "getBaseUrl"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "mainBundle"]
+- !private ["s29CustomPlaygroundQuickLookableP", "NSBundle"]
+- !private ["s29CustomPlaygroundQuickLookableP", "NSURL"]
+- !private ["s29CustomPlaygroundQuickLookableP", "URLByAppendingPathComponent"]
+- !private ["s29CustomPlaygroundQuickLookableP", "fatalError"]
+- !private ["s29CustomPlaygroundQuickLookableP", "getBaseUrl"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "NSBundle"]
+- !private ["s23CustomStringConvertibleP", "NSURL"]
+- !private ["s23CustomStringConvertibleP", "URLByAppendingPathComponent"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "getBaseUrl"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "mainBundle"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "GET"]
+- !private ["s9EquatableP", "NSBundle"]
+- !private ["s9EquatableP", "NSURL"]
+- !private ["s9EquatableP", "POST"]
+- !private ["s9EquatableP", "URLByAppendingPathComponent"]
+- !private ["s9EquatableP", "fatalError"]
+- !private ["s9EquatableP", "getBaseUrl"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "mainBundle"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "GET"]
+- !private ["s8HashableP", "NSBundle"]
+- !private ["s8HashableP", "NSURL"]
+- !private ["s8HashableP", "POST"]
+- !private ["s8HashableP", "URLByAppendingPathComponent"]
+- !private ["s8HashableP", "fatalError"]
+- !private ["s8HashableP", "getBaseUrl"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "mainBundle"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "NSBundle"]
+- !private ["So8NSCodingP", "NSURL"]
+- !private ["So8NSCodingP", "URLByAppendingPathComponent"]
+- !private ["So8NSCodingP", "fatalError"]
+- !private ["So8NSCodingP", "getBaseUrl"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "NSBundle"]
+- !private ["So9NSCopyingP", "NSURL"]
+- !private ["So9NSCopyingP", "URLByAppendingPathComponent"]
+- !private ["So9NSCopyingP", "fatalError"]
+- !private ["So9NSCopyingP", "getBaseUrl"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "NSBundle"]
+- !private ["So21NSItemProviderReadingP", "NSURL"]
+- !private ["So21NSItemProviderReadingP", "URLByAppendingPathComponent"]
+- !private ["So21NSItemProviderReadingP", "fatalError"]
+- !private ["So21NSItemProviderReadingP", "getBaseUrl"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "NSBundle"]
+- !private ["So21NSItemProviderWritingP", "NSURL"]
+- !private ["So21NSItemProviderWritingP", "URLByAppendingPathComponent"]
+- !private ["So21NSItemProviderWritingP", "fatalError"]
+- !private ["So21NSItemProviderWritingP", "getBaseUrl"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "NSBundle"]
+- !private ["So8NSObjectC", "NSURL"]
+- !private ["So8NSObjectC", "URLByAppendingPathComponent"]
+- !private ["So8NSObjectC", "fatalError"]
+- !private ["So8NSObjectC", "getBaseUrl"]
+- !private ["So8NSObjectC", "mainBundle"]
+- !private ["So16NSObjectProtocolP", "NSBundle"]
+- !private ["So16NSObjectProtocolP", "NSURL"]
+- !private ["So16NSObjectProtocolP", "URLByAppendingPathComponent"]
+- !private ["So16NSObjectProtocolP", "fatalError"]
+- !private ["So16NSObjectProtocolP", "getBaseUrl"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "mainBundle"]
+- !private ["So14NSSecureCodingP", "NSBundle"]
+- !private ["So14NSSecureCodingP", "NSURL"]
+- !private ["So14NSSecureCodingP", "URLByAppendingPathComponent"]
+- !private ["So14NSSecureCodingP", "fatalError"]
+- !private ["So14NSSecureCodingP", "getBaseUrl"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["So5NSURLC", "NSBundle"]
+- !private ["So5NSURLC", "NSURL"]
+- !private ["So5NSURLC", "URLByAppendingPathComponent"]
+- !private ["So5NSURLC", "fatalError"]
+- !private ["So5NSURLC", "getBaseUrl"]
+- !private ["s13OpaquePointerV", "GET"]
+- !private ["s13OpaquePointerV", "POST"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "NSBundle"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "NSURL"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "URLByAppendingPathComponent"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "fatalError"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "getBaseUrl"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSBundle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLByAppendingPathComponent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getBaseUrl"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mainBundle"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "10SkipMobile11APIEndPointO"
+- !private "s23BidirectionalCollectionP"
+- !private "So6BundleC"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- !private "10SwiftyJSON17JSONSubscriptTypeP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So5NSURLC"
+- !private "s13OpaquePointerV"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "9Alamofire14URLConvertibleP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/angelo/Documents/Projects/Skip/SkipMobile/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/angelo/Documents/Projects/Skip/SkipMobile/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/angelo/Documents/Projects/Skip/SkipMobile/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/angelo/Documents/Projects/Skip/SkipMobile/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/angelo/Documents/Projects/Skip/SkipMobile/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/angelo/Documents/Projects/Skip/SkipMobile/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/angelo/Documents/Projects/Skip/SkipMobile/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/angelo/Documents/Projects/Skip/SkipMobile/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+interface-hash: "ad934ca7b5e36d0188b1143beec0b072"

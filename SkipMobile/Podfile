@@ -1,0 +1,6 @@
+use_frameworks!
+
+target 'SkipMobile' do
+    pod 'Alamofire', '~> 4.7'
+    pod 'SwiftyJSON'
+end

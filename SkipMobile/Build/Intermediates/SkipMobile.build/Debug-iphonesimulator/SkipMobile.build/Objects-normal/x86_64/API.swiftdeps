@@ -1,0 +1,100 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Api"
+- "Configuration"
+provides-nominal:
+- "10SkipMobile3ApiC"
+- "10SkipMobile13ConfigurationV"
+provides-member:
+- ["10SkipMobile3ApiC", ""]
+- ["10SkipMobile13ConfigurationV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "APIManagerProtocol"
+- "APIResult"
+- "Api"
+- "ApiManagerProtocol"
+- "ApiResult"
+- "AssignmentPrecedence"
+- !private "Bool"
+- "Configuration"
+- "Cousine"
+- "Customer"
+- !private "Dictionary"
+- "Int"
+- !private "NSProcessInfo"
+- "String"
+- !private "StringLiteralType"
+- !private "customer"
+- !private "manager"
+depends-member:
+- !private ["10SkipMobile18APIManagerProtocolP", "apiRequest"]
+- ["10SkipMobile3ApiC", "APIManagerProtocol"]
+- ["10SkipMobile3ApiC", "APIResult"]
+- ["10SkipMobile3ApiC", "ApiResult"]
+- !private ["10SkipMobile3ApiC", "Configuration"]
+- ["10SkipMobile3ApiC", "Cousine"]
+- ["10SkipMobile3ApiC", "Customer"]
+- ["10SkipMobile3ApiC", "Int"]
+- ["10SkipMobile3ApiC", "String"]
+- !private ["10SkipMobile3ApiC", "customer"]
+- ["10SkipMobile3ApiC", "deinit"]
+- ["10SkipMobile3ApiC", "getCousinList"]
+- ["10SkipMobile3ApiC", "getCousineByDescription"]
+- ["10SkipMobile3ApiC", "init"]
+- !private ["10SkipMobile3ApiC", "manager"]
+- !private ["10SkipMobile3ApiC", "managerAPI"]
+- !private ["s7CVarArgP", "processInfo"]
+- ["10SkipMobile13ConfigurationV", "ApiManagerProtocol"]
+- !private ["10SkipMobile13ConfigurationV", "Bool"]
+- !private ["10SkipMobile13ConfigurationV", "NSProcessInfo"]
+- ["10SkipMobile13ConfigurationV", "init"]
+- !private ["10SkipMobile13ConfigurationV", "isUITesting"]
+- !private ["10SkipMobile13ConfigurationV", "manager"]
+- !private ["s28CustomDebugStringConvertibleP", "processInfo"]
+- !private ["s23CustomStringConvertibleP", "processInfo"]
+- !private ["s9EquatableP", "processInfo"]
+- !private ["s8HashableP", "processInfo"]
+- !private ["So8NSObjectC", "processInfo"]
+- !private ["So16NSObjectProtocolP", "processInfo"]
+- !private ["So11ProcessInfoC", "processInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "processInfo"]
+depends-nominal:
+- !private "10SkipMobile18APIManagerProtocolP"
+- "10SkipMobile3ApiC"
+- !private "s7CVarArgP"
+- "10SkipMobile13ConfigurationV"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9EquatableP"
+- !private "s8HashableP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So11ProcessInfoC"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/angelo/Documents/Projects/Skip/SkipMobile/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/angelo/Documents/Projects/Skip/SkipMobile/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/angelo/Documents/Projects/Skip/SkipMobile/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/angelo/Documents/Projects/Skip/SkipMobile/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/angelo/Documents/Projects/Skip/SkipMobile/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/angelo/Documents/Projects/Skip/SkipMobile/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/angelo/Documents/Projects/Skip/SkipMobile/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/angelo/Documents/Projects/Skip/SkipMobile/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+interface-hash: "e269e565c5ce773e9179814f957db80d"
